@@ -1,0 +1,100 @@
+{
+  "source": "https://eth.drpc.org",
+  "contract": "0x495f947276749Ce646f68AC8c248420045cb7b5e",
+  "total_supply_selector": "0xbd85b039",
+  "transfer_single_topic": "0xc3d58168c5ae7397731d063d5bbf3d657854427343f4c083240f7aacaa2d0f62",
+  "cases": [
+    {
+      "name": "ordinary",
+      "start": 15000000,
+      "end": 15000002,
+      "blocks": {
+        "14999999": {
+          "number": "0xe4e1bf",
+          "hash": "0x93a8a23a2f5296db7251ab4c5e9b10bdc5a6c9c4ed56fb230dc729d3dc03a138",
+          "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+        },
+        "15000002": {
+          "number": "0xe4e1c2",
+          "hash": "0xb8aeee482d9cdf68868e758983a47bc24012398848b8f64f159966ff0530642b",
+          "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+        },
+        "15000001": {
+          "number": "0xe4e1c1",
+          "hash": "0x7a7d7c23bb8c5e340eead8537bb5e2f3e125bfa0b588cf07e4aa140ba374295e",
+          "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+        }
+      },
+      "before": 1,
+      "after": 1,
+      "logs_in_query": 1,
+      "event": {
+        "block": 15000001,
+        "block_hash": "0x7a7d7c23bb8c5e340eead8537bb5e2f3e125bfa0b588cf07e4aa140ba374295e",
+        "transaction_hash": "0x4eb47ac1d75f7036a0a4fc93ba1fae367bea5aa00782257cf3027ca3474f2e88",
+        "transaction_index": 43,
+        "log_index": 122,
+        "from": "0x8a3ab13e594c0f81d16097cc9e46865d17bcaff8",
+        "to": "0x79af6edbbafd6a6c9d03c7e5d59a0148fa8c9643",
+        "operator": "0xe06aa74f3040b7fe954530c4b92a924f31a24ad7",
+        "token_id": 108348005865544129040411552508209223114542272553772717755275977563383596580865,
+        "value": 1
+      }
+    },
+    {
+      "name": "burn",
+      "start": 14200074,
+      "end": 14200076,
+      "blocks": {
+        "14200073": {
+          "number": "0xd8ad09",
+          "hash": "0x5f85705b94504a3a4c6cf0095106fc2183b3aba18708a206d5081acacecbee1b",
+          "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+        },
+        "14200076": {
+          "number": "0xd8ad0c",
+          "hash": "0x7ef30106fc27698eea9ffe3061d1664dd2e11da0f0925d0f59e096b9990c9511",
+          "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+        },
+        "14200075": {
+          "number": "0xd8ad0b",
+          "hash": "0x54f095ead94da7edcfdcda534fc3f67aff9bd66e866f223dacd9e21ddf6e0522",
+          "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+        }
+      },
+      "before": 0,
+      "after": 1,
+      "logs_in_query": 6,
+      "event": {
+        "block": 14200075,
+        "block_hash": "0x54f095ead94da7edcfdcda534fc3f67aff9bd66e866f223dacd9e21ddf6e0522",
+        "transaction_hash": "0xc8b17cd727f0d0d0cbee065fe055b3495820571c0409c5661a834a5f7da33309",
+        "transaction_index": 195,
+        "log_index": 481,
+        "from": "0xb9e6629000415d49b6157f41b28bc653209f8c8a",
+        "to": "0x0000000000000000000000000000000000000000",
+        "operator": "0xb9e6629000415d49b6157f41b28bc653209f8c8a",
+        "token_id": 84084932066204505146800125493745518860054010484135415538560525275396371907560,
+        "value": 1
+      }
+    }
+  ],
+  "batch_example": {
+    "block": 15000086,
+    "block_hash": "0xe06be9d4b1c7e592257df1fdc4c085653cf41d3c565ff2c079b61a1be25c5a5f",
+    "transaction_hash": "0x25d52e3adf3dd1182424cbe8c38d0bbe883c2971c417205728baf325c03df445",
+    "transaction_index": 314,
+    "log_index": 406,
+    "from": "0xde7b08a4e6f8987e79e70197b751b94c5e23f1dc",
+    "to": "0xb4e62d6363f82e0e74e8963828815f907eab2c66",
+    "operator": "0xb4e62d6363f82e0e74e8963828815f907eab2c66",
+    "ids": [
+      105106996878630511210248856593636848502986555109151911559735831095040666501121,
+      105106996878630511210248856593636848502986555109151911559735830621151154929665
+    ],
+    "values": [
+      1,
+      1
+    ]
+  }
+}
